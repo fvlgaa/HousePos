@@ -44,8 +44,7 @@ public class Database {
                             "name VARCHAR(50), " +
                             "contact_info VARCHAR(20), " +
                             "email VARCHAR(50), " +
-                            "loyalty_points INT, " +
-                            "PRIMARY KEY(id));", this.connection);
+                            "loyalty_points INT, " + "PRIMARY KEY(id));", this.connection);
 
             createTable("payment",
                     "CREATE TABLE payment(" +
