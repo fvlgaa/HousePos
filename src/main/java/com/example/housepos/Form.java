@@ -43,7 +43,7 @@ public class Form extends Application {
         //Set the center of the BorderPane to the TabPane
 
         Database db = Database.getInstance();
-        Scene scene = new Scene(root, 700, 800);
+        Scene scene = new Scene(root, 700, 700);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();

@@ -6,6 +6,6 @@ import java.util.ArrayList;
 
 public interface PropertyDAO {
     public ArrayList<Property> getAllProperty();
-    public Property getCoin(int id);
+    public Property getProperty(int id);
 
 }
