@@ -25,4 +25,11 @@ public class DatabaseItem {
                 "id=" + id +
                 '}';
     }
+
+    public String getStatus() {
+        return null;
+    }
+    public String getTime() {
+        return null;
+    }
 }

@@ -32,8 +32,11 @@ public class Form extends Application {
         TabPane tabPane = new TabPane();
         //Create the tabs
         AddItemTab addItemTab = AddItemTab.getInstance();
+        addItemTab.setClosable(false);
         RemoveItem removeItemTab = RemoveItem.getInstance();
+        removeItemTab.setClosable(false);
         StatisticsTab statisticsTab = StatisticsTab.getInstance();
+        statisticsTab.setClosable(false);
         //Add the tabs to the TabPane
         tabPane.getTabs().addAll(addItemTab, removeItemTab, statisticsTab);
         tabPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
