@@ -104,6 +104,7 @@ public class AddItemTab extends Tab {
         });
     }
 
+
     public static AddItemTab getInstance() {
         if (instance == null) {
             instance = new AddItemTab();
